@@ -70,7 +70,7 @@ The highest-numbered of a range of contiguous IRQ lines that can be allocated to
 
 ### -field IRQR_Flags
 
-One bit flag from [IRQ_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32) structure.
+One bit flag from <i>each</i> of the flag sets described in the table included with the description of the <b>IRQD_Flags</b> member of the [IRQ_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32) structure.
 
 ## -see-also
 
