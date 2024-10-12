@@ -76,7 +76,7 @@ The highest-numbered of a range of contiguous I/O port addresses that can be all
 
 ### -field IOR_RangeFlags
 
-One bit flag from [IO_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des) structure. For more information, see the following <b>Remarks</b> section.
+One bit flag from <i>each</i> of the flag sets described in the table included with the description of the <b>IOD_DesFlags</b> member of the [IO_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des) structure. For more information, see the following <b>Remarks</b> section.
 
 ### -field IOR_Alias
 
