@@ -112,7 +112,7 @@ Reserved for future use. This parameter must be set to 0.
 
 ## -remarks
 
-[Supplicant API Call Sequence](/windows/win32/eaphost/supplicant-api-call-sequence).
+<b>EapHostPeerQueryUIBlobFromInteractiveUIInputFields</b> can be employed to support Single-Sign-On (SSO). In an SSO scenario, <b>EapHostPeerQueryUIBlobFromInteractiveUIInputFields</b> is the last API to be called before resuming a regular call sequence. For more information, see [Supplicant API Call Sequence](/windows/win32/eaphost/supplicant-api-call-sequence).
 
 ## -see-also
 
