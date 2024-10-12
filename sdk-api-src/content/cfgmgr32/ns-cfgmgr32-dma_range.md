@@ -68,7 +68,7 @@ The highest-numbered DMA channel that can be allocated to the device.
 
 ### -field DR_Flags
 
-One bit flag from [DMA_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des) structure.
+One bit flag from <i>each</i> of the flag sets described in the table included with the description of the <b>DR_Flags</b> member of the [DMA_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des) structure.
 
 ## -see-also
 
