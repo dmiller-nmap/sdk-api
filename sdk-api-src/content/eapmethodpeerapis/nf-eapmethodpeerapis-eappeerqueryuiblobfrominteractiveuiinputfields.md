@@ -94,7 +94,7 @@ Reserved for future use. This parameter must be set to 0.
 
 ## -remarks
 
-[Peer Method API Call Sequence](/windows/win32/eaphost/peer-method-api-call-sequence).
+<b>EapPeerQueryUIBlobFromInteractiveUIInputFields</b> can be employed to support Single-Sign-On (SSO). In an SSO scenario, <b>EapPeerQueryUIBlobFromInteractiveUIInputFields</b> is the last API to be called before resuming a regular call sequence. For more information, see [Peer Method API Call Sequence](/windows/win32/eaphost/peer-method-api-call-sequence).
 
 ## -see-also
 
