@@ -69,7 +69,7 @@ This method returns one of the <a href="/windows/desktop/direct3d11/d3d11-graphi
 
 ## -remarks
 
-[D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS](./ne-d3d11sdklayers-d3d11_shader_tracking_options.md)) in the <i>Options</i> parameter for a compute shader, <b>SetShaderTrackingOptions</b> ignores it.</div>
+<div class="alert"><b>Note</b>  After a call to <b>SetShaderTrackingOptions</b>, the tracking options that the  <i>Options</i> parameter specifies are set for all calls by the shader that the  <i>pShader</i> parameter specifies, until the next call to <b>SetShaderTrackingOptions</b>. If you set a flag that is specific to unordered access views (UAV) (for example, [D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS](./ne-d3d11sdklayers-d3d11_shader_tracking_options.md)) in the <i>Options</i> parameter for a compute shader, <b>SetShaderTrackingOptions</b> ignores it.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
