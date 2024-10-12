@@ -76,7 +76,7 @@ The highest-numbered of a range of contiguous memory addresses that can be alloc
 
 ### -field MR_Flags
 
-One bit flag from [MEM_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des) structure.
+One bit flag from <i>each</i> of the flag sets described in the table included with the description of the <b>MD_Flags</b> member of the [MEM_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des) structure.
 
 ### -field MR_Reserved
 
