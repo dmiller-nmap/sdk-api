@@ -73,7 +73,7 @@ The size, in bytes, of the configuration BLOB.
 ### -param ppConfigDoc [out]
 
 A pointer to a pointer to an XML document that  contains the converted configuration. If the EAP method does not support
-                the [EapHostConfig Schema](/windows/win32/eaphost/eaphostconfigschema-schema) configuration element.
+                the <b>EapPeerConfigBlob2Xml </b>function, the XML document will contain the  <b>ConfigBlob</b> node with the BLOB in string form. The EAP method should create configuration inside the [EapHostConfig Schema](/windows/win32/eaphost/eaphostconfigschema-schema) configuration element.
 
 ### -param ppEapError [out]
 
