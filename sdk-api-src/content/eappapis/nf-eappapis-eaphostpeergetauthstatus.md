@@ -103,7 +103,7 @@ An <a href="/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeera
 </dl>
 </td>
 <td width="60%">
-Windows 7 or later: [EapHostPeerNapInfo](/windows/win32/eaphost/eaphostpeernapinfo) structure.
+Windows 7 or later: <i>ppAuthData</i> contains a [EapHostPeerNapInfo](/windows/win32/eaphost/eaphostpeernapinfo) structure.
 
 </td>
 </tr>
