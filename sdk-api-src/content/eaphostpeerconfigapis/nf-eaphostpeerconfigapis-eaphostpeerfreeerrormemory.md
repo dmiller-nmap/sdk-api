@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Frees memory allocated to an [EAPHost supplicant configuration function](/windows/win32/eaphost/eap-host-supplicant-configuration-functions) fails. 
+Frees memory allocated to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure. An <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure is created whenever an [EAPHost supplicant configuration function](/windows/win32/eaphost/eap-host-supplicant-configuration-functions) fails. 
 
 The  <b>EapHostPeerFreeErrorMemory</b> function is used only for freeing <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structures returned by EAPHost configuration APIs, while the <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a> function is used for freeing <b>EAP_ERROR</b> structures returned by EAPHost run-time APIs.
 
