@@ -84,7 +84,7 @@ A pointer to a buffer that  contains the configuration BLOB to convert.  The buf
 ### -param ppConfigDoc [out]
 
 A pointer to a pointer to an XML document that  contains the converted configuration. If the EAP method does not support
-                the [EapHostConfig Schema](/windows/win32/eaphost/eaphostconfigschema-schema) element.
+                the <b>EapHostPeerConfigBlob2Xml</b>function, the XML document will contain the  <b>ConfigBlob</b> node with the BLOB in string form. The EAP method should create configuration inside the [EapHostConfig Schema](/windows/win32/eaphost/eaphostconfigschema-schema) element.
 
 ### -param ppEapError [out]
 
