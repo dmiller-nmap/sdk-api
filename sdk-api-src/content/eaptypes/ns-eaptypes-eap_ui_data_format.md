@@ -57,14 +57,14 @@ The <b>EAP_UI_DATA_FORMAT</b> union specifies the value of the attribute stored 
 
 case(<i>EapCredReq</i>)
 
-If [EAP_CRED_REQ](/windows/win32/eaphost/eap-cred-req)structure. 
+If <i>dwDataType</i> specifies a credential request type (<i>EapCredReq</i>), then the data pointed to by this parameter is defined by the [EAP_CRED_REQ](/windows/win32/eaphost/eap-cred-req)structure. 
 
  
 
 
 case(<i>EapCredResp</i>)
 
-If [EAP_CRED_RESP](/windows/win32/eaphost/eap-cred-resp) structure
+If <i>dwDataType</i> specifies a credential response type (<i>EapCredResp</i>), then the data pointed to by this parameter is defined by the [EAP_CRED_RESP](/windows/win32/eaphost/eap-cred-resp) structure
 
 ### -field case
 
@@ -90,12 +90,12 @@ If <i>dwDataType</i> specifies a credential expiry response type (<i>eapCredExpi
 
 case(<i>EapCredLogonReq</i>)
 
-If [EAP_CRED_LOGON_REQ](/windows/win32/eaphost/eap-cred-logon-req) structure. 
+If <i>dwDataType</i> specifies a logon credential request type (<i>EapCredLogonReq</i>),  the data pointed to by this parameter is defined by the [EAP_CRED_LOGON_REQ](/windows/win32/eaphost/eap-cred-logon-req) structure. 
 
 
 case(<i>EapCredLogonResp</i>)
 
-If [EAP_CRED_LOGON_RESP](/windows/win32/eaphost/eap-cred-logon-resp) structure
+If <i>dwDataType</i> specifies a logon credential response type (<i>EapCredLogonResp</i>), the data pointed to by this parameter is defined by the [EAP_CRED_LOGON_RESP](/windows/win32/eaphost/eap-cred-logon-resp) structure
 
 ### -field case.EapCredLogonReq
 
